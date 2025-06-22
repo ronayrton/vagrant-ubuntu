@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/synced":{"guestpath":"/home/vagrant/synced","hostpath":"C:/Users/Usuario/Documents/projetos/vangrant-ubuntu20/synced_folder","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Usuario/Documents/projetos/vangrant-ubuntu20","disabled":false,"__vagrantfile":true}}}
