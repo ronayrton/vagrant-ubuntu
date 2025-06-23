@@ -55,6 +55,7 @@ Dentro da VM:
 ## ⚙️ Conteúdo do Vagrantfile
 Abaixo está a configuração utilizada no arquivo Vagrantfile deste projeto:
 
+```ruby
 Vagrant.configure("2") do |config|
   # Recursos da VM
   config.vm.provider "virtualbox" do |vb|
