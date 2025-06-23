@@ -108,5 +108,4 @@ end
 
 
 ## 📸 Demonstração
-
-[vagrant up rodando] (./images/vagrant-up.gif)
+![vagrant up rodando](\images\vagrant-up.gif)
