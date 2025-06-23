@@ -1,1 +1,13 @@
-vagrant/
+# Ignorar pastas e arquivos criados pelo Vagrant
+.vagrant/
+
+# Ignorar arquivos de swap de editores (opcional)
+*.swp
+
+# Ignorar logs ou temporários (opcional)
+*.log
+*.tmp
+
+# Ignorar arquivos de sistema (opcional)
+.DS_Store
+Thumbs.db
