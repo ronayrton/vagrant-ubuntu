@@ -17,13 +17,13 @@ A configuração inclui:
 
 1. **Clone o Repositório:**
 
-bash
-git clone https://github.com/SEU_USUARIO/vagrant-ubuntu.git
+
+- git clone https://github.com/SEU_USUARIO/vagrant-ubuntu.git
 cd vagrant-ubuntu
+
 Inicie a VM com o comando:
 
-bash
-vagrant up
+- vagrant up
 
 O Vagrant irá baixar a box oficial do Ubuntu 20.04 se for a primeira vez que você executa.
 
@@ -32,8 +32,7 @@ Caso a rede peça para selecionar a interface de rede durante o provisionamento,
 ## 🔑 Como Acessar a Máquina Virtual via SSH
 Após a máquina ser inicializada com sucesso:
 
-bash
-vagrant ssh
+- vagrant ssh
 
 Com isso, você estará logado dentro da VM.
 
@@ -47,18 +46,15 @@ Foi configurada uma pasta sincronizada para facilitar o compartilhamento de arqu
 **Exemplo de uso:**
 No Host:
 
-bash
-echo "Arquivo de teste" > synced_folder/teste.txt
+- echo "Arquivo de teste" > synced_folder/teste.txt
 
 Dentro da VM:
 
-bash
-cat /home/vagrant/synced_folder/teste.txt
+- cat /home/vagrant/synced_folder/teste.txt
 
 ## ⚙️ Conteúdo do Vagrantfile
 Abaixo está a configuração utilizada no arquivo Vagrantfile deste projeto:
 
-ruby
 Vagrant.configure("2") do |config|
   # Recursos da VM
   config.vm.provider "virtualbox" do |vb|
