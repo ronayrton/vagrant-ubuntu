@@ -95,3 +95,18 @@ end
 - Sincronização de pasta entre host e VM
 
 - Projeto versionado no GitHub
+
+## 🧠 O que eu aprendi com este projeto:
+
+- Como criar ambientes replicáveis rapidamente com Vagrant
+
+- Gerenciar recursos de uma VM antes mesmo da criação
+
+- Configurar redes em modo Bridge para comunicação em rede local
+
+- Sincronizar arquivos entre Host e VM.
+
+
+## 📸 Demonstração
+
+[vagrant up rodando] (./images/vagrant-up.gif)
