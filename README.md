@@ -76,14 +76,16 @@ Vagrant.configure("2") do |config|
   # Sincronização de pastas
   config.vm.synced_folder "./synced_folder", "/home/vagrant/synced"
 end
+```
+
 
 ## ✅ Objetivos Alcançados
- Criação de VM com Ubuntu 20.04
+- Criação de VM com Ubuntu 20.04
 
- Definição de recursos: memória e CPU
+- Definição de recursos: memória e CPU
 
- Configuração de rede Bridge
+- Configuração de rede Bridge
 
- Sincronização de pasta entre host e VM
+- Sincronização de pasta entre host e VM
 
- Projeto versionado no GitHub
+- Projeto versionado no GitHub
