@@ -47,6 +47,7 @@ Foi configurada uma pasta sincronizada para facilitar o compartilhamento de arqu
 - **Pasta dentro da VM:** /home/vagrant/synced_folder
 
 **Exemplo de uso:**
+
 No Host:
 ```bash
 echo "Arquivo de teste" > synced_folder/teste.txt
